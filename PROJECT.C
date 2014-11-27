@@ -10,6 +10,7 @@ struct phonebook {
 	struct phonebook * prev;
 };
 
+
 struct phonebook * head=NULL;
 struct phonebook * tail=NULL;
 
