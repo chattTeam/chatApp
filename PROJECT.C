@@ -15,7 +15,7 @@ struct phonebook * tail=NULL;
 
 struct phonebook * create_phonebook (void);
 void append_phonebook (struct phonebook * ele);
-void  search_phonebook (char * name);
+struct phonebook *  search_phonebook (char * name);
 void delete_phonebook (char * key) ;
 void deletelist(void);
 void printlist_search (void) ;
@@ -166,7 +166,7 @@ void append_phonebook (struct phonebook * ele)
 	}
 
 }
-void search_phonebook (char * name)
+struct phonebook * search_phonebook (char * name)
 {
 	struct phonebook * temp=head;
 
@@ -236,7 +236,7 @@ void printlist_search (void)
 	printf("\n the list is : \n");
 	while(ptr != NULL)
 	{
-		 printf("\n %d \n",ptr->code);
+		 printf("\n %S \n",ptr->name);
 		 ptr=ptr->next;
 
 	}
