@@ -14,7 +14,7 @@ import javax.swing.JLabel;
  * @author Sara
  */
 public class ContactsForm extends javax.swing.JFrame {
-    String path="C:\\Users\\Sara\\Desktop\\images\\contat.png";
+    String path="contat.png";
     /**
      * Creates new form ContactsForm
      */
