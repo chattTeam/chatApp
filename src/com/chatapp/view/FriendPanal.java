@@ -8,7 +8,7 @@
  *
  * Created on Jan 19, 2015, 7:51:49 AM
  */
-package com.ChatAppha.view;
+package com.chatapp.view;
 
 /**
  *

@@ -8,7 +8,7 @@
  *
  * Created on Jan 18, 2015, 3:24:30 PM
  */
-package com.ChatAppha.view;
+package com.chatapp.view;
 
 import java.awt.Color;
 import java.awt.Image;
